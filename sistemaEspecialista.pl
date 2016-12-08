@@ -1,3 +1,6 @@
+% Logica para Computacao - IF972 - 2016.2
+% por Renata Amorim (rksa@cin.ufpe.br) e Vinicius Giles (vgcp@cin.ufpe.br)
+
 %escalador(Pessoa,NumMarinheiros)
 escalador(pedro, 12).
 escalador(joao, 8).
@@ -82,44 +85,3 @@ recomendarEscalada(Pessoa, HorasPratica, Tipo, DiaEntrada, MesEntrada, ListaReco
 
 	% pega os locais do tipo e nivel do escalador. saida: Locais
 	findall((Local,NivelDoLocal), locaisAdequados(Local, NivelDoLocal, Estacao, Tipo, NivelDoEscalador), ListaRecomendada).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
